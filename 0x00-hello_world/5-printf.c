@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main displays given text
+ * main - displays given text
  * return returns zero since main(void)
  */
 
