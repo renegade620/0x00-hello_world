@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - displays given text
- * return returns zero since main(void)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 
 int main(void)
