@@ -11,10 +11,11 @@ int main(void)
 	int i;
 
 	for (i = 0; i <= 26; i++)
-	{
+	
 		putchar(alph[i]);
-		putchar('\n');
-	}
+
+	putchar('\n');
+	
 	return (0);
 
 }
