@@ -10,9 +10,8 @@ int main(void)
 	char alph[26] = "abcdefghiklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
-	       putchar(alph[i]);
-	putchar('\n');
-       	return (0);
+	for (i = 0; i <= 26; i++)
+		putchar(alp[i]);
+	return (0);
 
 }
