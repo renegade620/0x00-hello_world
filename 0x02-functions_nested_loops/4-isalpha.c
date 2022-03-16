@@ -6,13 +6,11 @@
  *
  * Description - checks for alphabetic character
  *
- * Return 1 (Success) or 0 (Failure)
+ * Return: 1 (Success) or 0 (Failure)
  */
-int _islpha(int c)
+int _isalpha(int c)
 {
-	char c;
-
-	if ((c == 'a' && c == 'z') || (c == 'A' && c == 'Z')
+	if ((c == 'a' && c == 'z') || (c == 'A' && c == 'Z'))
 			return (1);
 	return (0);
 }
