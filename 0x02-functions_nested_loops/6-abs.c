@@ -7,7 +7,7 @@
  *
  * Description: absolute value of an integer
  *
- * Return: absolute value
+ * Return:  returns absolute value
  */
 int _abs(int x)
 {
