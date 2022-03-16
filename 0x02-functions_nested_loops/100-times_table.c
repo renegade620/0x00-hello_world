@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-  * print_times_table - prints a multiplication table 
-  * @n: The number to be multiplied
-  *
-  * Return: times matrix
-  */
+* print_times_table - prints a multiplication table
+* @n: The number to be multiplied
+*
+* Return: times matrix
+*/
 void print_times_table(int n)
 {
 	int i, j, k;
@@ -16,22 +16,22 @@ void print_times_table(int n)
 		{
 			for (j = 0; j <= n; j++)
 			{
-				z = i * j;
+				k = i * j;
 				if (k > 99)
 				{
 					_putchar(',');
 					_putchar(32);
-					_putchar((z / 100) + '0');
-					_putchar(((z / 10) % 10) + '0');
-					_putchar((z % 10) + '0');
+					_putchar((k / 100) + '0');
+					_putchar(((k / 10) % 10) + '0');
+					_putchar((k % 10) + '0');
 				}
 				else if (k > 9)
 				{
 					_putchar(',');
 					_putchar(32);
 					_putchar(32);
-					_putchar(((z / 10) % 10) + '0');
-					_putchar((z % 10) + '0');
+					_putchar(((k / 10) % 10) + '0');
+					_putchar((k % 10) + '0');
 				}
 				else
 				{
