@@ -3,7 +3,7 @@
 /**
  * print_sign - check details
  *
- * @n - input integer
+ * @n: input integer
  *
  * Description - prints sign of a number
  *
