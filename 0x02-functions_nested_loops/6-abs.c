@@ -3,7 +3,7 @@
 /**
  * _abs - check description
  *
- * @x - input integer
+ * @x: input integer
  *
  * Description: absolute value of an integer
  *
