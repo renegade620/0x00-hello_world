@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int x, max, num = 612852475143;
+	long int x, max, num = 612852475143;
 	double square = sqrt(num);
 
 	for (x = 1; x <= square; x++)
@@ -16,6 +16,6 @@ int main(void)
 		if (num % x == 0)
 			max = num / x;
 	}
-	printf("%d\n, max);
+	printf("%ld\n", max);
 	return (0);
 }
