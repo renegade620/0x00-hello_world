@@ -5,6 +5,7 @@
  *
  * @s: string to be counted
  *
+ * Return: length of string
  */
 int _strlen(char *s)
 {
