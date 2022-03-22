@@ -18,7 +18,7 @@ int main(void)
 
 	for (i = 0; password < 2772; i++)
 	{
-		n = rand() % 10;
+		j = rand() % 10;
 		pwd[i] = s[j];
 		password += pwd[i];
 	}
