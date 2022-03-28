@@ -6,7 +6,7 @@
  * @s: substring                                                                       
  * @accept: bytes                                                                                                                                                
  *
- *Return: number of bytes                                                           
+ *Return: pointer                                                           
  */                                                                                  
 char *_strpbrk(char *s, char *accept)                                          
 {                                                                                    
