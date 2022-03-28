@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strspn - gets length of a prefix substring
+ * _strspn - gets length of a prefix substring
  *
  * @s: substring
  * @accept: bytes
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 		if (accept[i] == s[j])
 			x++;
-		j++
+		j++;
 		}
 		i++;
 	}

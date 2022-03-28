@@ -1,31 +1,31 @@
 #include "main.h"
 
 /**
- * strspn - gets length of a prefix substring
+ * _strpbrk - gets length of a prefix substring
  *
- * @s: substring                                                                       
- * @accept: bytes                                                                                                                                                
+ * @s: substring
+ * @accept: bytes
  *
- *Return: pointer                                                           
- */                                                                                  
-char *_strpbrk(char *s, char *accept)                                          
-{                                                                                    
+ * Return: pointer
+ */
+char *_strpbrk(char *s, char *accept)
+{
 	int i = 0, j;
 
 	while (s[i])
-    {
-        j = 0;
+	{
+		j = 0;
 
-        while (accept[j])
-        {
-            if (s[i] == accept[j])
-            {
-                s += i;
-                return (s);
-            }
-            j++;
-        }
-        i++;
-    }
-    return ('\0');
+	while (accept[j])
+	{
+		if (s[i] == accept[j])
+		{
+			s += i;
+			return (s);
+			j++;
+		}
+	i++;
+	}
+	return ('\0');
+	}
 }
