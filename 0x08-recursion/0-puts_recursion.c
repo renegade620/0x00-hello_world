@@ -1,7 +1,7 @@
-#include "main.h"
+include "main.h"
 
 /**
-  * _puts_recursion - Print a string 
+  * _puts_recursion - Print a string
   * @s: string to print
   *
   * Return: nothing
