@@ -9,5 +9,5 @@ int is_prime_number(int n);
 int _sqrt(int n, int i);
 int check_prime(int n, int i);
 int is_palindrome(char *s);
-int wildcmp(char *s1, char *s2)
+int wildcmp(char *s1, char *s2);
 int check_palindrome(char *s);
