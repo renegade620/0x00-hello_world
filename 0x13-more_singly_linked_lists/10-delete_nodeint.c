@@ -7,12 +7,11 @@
  *                           index of the list
  * @head: pointer to address of the
  *        head of the list
- * @index: index of node to be deleted 
+ * @index: index of node to be deleted
  *
- * Return: success - 1, failure - -1         
+ * Return: success - 1, failure - -1
  */
- int delete_nodeint_at_index(listint_t **head, unsigned int index)
- int delete_nodeint_at_index(listint_t **head, unsigned int index)
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tmp, *copy = *head;
 	unsigned int node;
