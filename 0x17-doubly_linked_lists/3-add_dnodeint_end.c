@@ -4,7 +4,7 @@
 /**
  * add_dnodeint_end - adds a new node at the end of a list
  * @head: pointer to head
- * @n: integer 
+ * @n: integer
  *
  * Return: SUCCESS - return address of new element, FAILURE - NULL
  */
