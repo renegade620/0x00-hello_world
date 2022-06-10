@@ -9,12 +9,12 @@
  */
 void free_dlistint(dlistint_t *head)
 {
-	dlistint_t ehad;
+	dlistint_t *ehad;
 
-	while (*head)
+	while (head)
 	{
-		ehad = *head->next;
-		free(*head);
-		*head = ehad;
+		ehad = head->next;
+		free(head);
+		head = ehad;
 	}
 }
